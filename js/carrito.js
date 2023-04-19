@@ -42,7 +42,7 @@ if (productosEnCarrito){
         </button>
         `;
 
-        contenedorCarritoProductos.append("div");
+        contenedorCarritoProductos.append(div);
     })
 
 

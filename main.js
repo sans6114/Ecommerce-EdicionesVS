@@ -9,7 +9,8 @@ const productosArray = [
             nombre: "x1",
             id: "x1"
         },
-        precio: "1500"
+        precio: "1500",
+        cantidad: 0
     },
     {
         id: "libro-01",
@@ -19,7 +20,8 @@ const productosArray = [
             nombre: "x2",
             id: "x2"
         },
-        precio: "1500"
+        precio: "1500",
+        cantidad: 0
     },
     {
         id: "libro-01",
@@ -29,7 +31,8 @@ const productosArray = [
             nombre: "x3",
             id: "x4"
         },
-        precio: "1500"
+        precio: "1500",
+        cantidad: 0
     },
     {
         id: "libro-01",
@@ -39,7 +42,8 @@ const productosArray = [
             nombre: "x3",
             id: "x3"
         },
-        precio: "1500"
+        precio: "1500",
+        cantidad: 0
     }
 ]
 
