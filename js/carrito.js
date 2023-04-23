@@ -58,8 +58,6 @@ if (productosEnCarrito){
 
 }
 
-function actualizarBotonesEliminar();
-
 
 function actualizarBotonesEliminar() {
     botonesEliminar = document.querySelectorAll(".carrito-producto-eliminar");
