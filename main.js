@@ -10,10 +10,10 @@ const productosArray = [
             id: "x1"
         },
         precio: "1500",
-        cantidad: 0
+        
     },
     {
-        id: "libro-01",
+        id: "libro-02",
         titulo: "¿Qué tienes en tu Mano? (Mariana Maillet)",
         imagen: "./img/tapa_quetienesentumano_marianamaillet.jpg",
         categoria: {
@@ -21,10 +21,10 @@ const productosArray = [
             id: "x2"
         },
         precio: "1500",
-        cantidad: 0
+        
     },
     {
-        id: "libro-01",
+        id: "libro-03",
         titulo: "Antídotos contra la religión (Juan Pablo Sosa)",
         imagen: "./img/antidotoscontralareligion_tapa.jpg",
         categoria: {
@@ -32,10 +32,10 @@ const productosArray = [
             id: "x4"
         },
         precio: "1500",
-        cantidad: 0
+        
     },
     {
-        id: "libro-01",
+        id: "libro-04",
         titulo: "Hijos de la Promesa (Ezequiel Rossini)",
         imagen: "./img/HijosDeLaPromesa-EzequielRossini_160p-14x21-1-555x832-1.jpg",
         categoria: {
@@ -43,7 +43,7 @@ const productosArray = [
             id: "x3"
         },
         precio: "1500",
-        cantidad: 0
+        
     }
 ]
 
