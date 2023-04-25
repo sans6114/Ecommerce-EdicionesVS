@@ -16,7 +16,16 @@
 <body>
 
     <div class="envoltorio">
-        <aside>
+        <header class="header-mobile">
+            <img loading="lazy" src="./img/marca_ediciones_vs-01.png" class="logo" alt="Logo editorial" />
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside class="aside-visible">
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
 
             <header>
                 <img loading="lazy" src="./img/marca_ediciones_vs-01.png" class="logo" alt="Logo editorial" />
@@ -51,14 +60,14 @@
 
                 <div id="carrito-acciones" class="carrito-acciones disabled">
                     <div class="carrito-acciones-izquierda">
-                        <button class="carrito-acciones-vaciar">Vaciar carrito</button>
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
                     </div>
                     <div class="carrito-acciones-derecha">
                         <div class="carrito-acciones-total">
                             <p>Total</p>
                             <p id="total">$3000</p>
                         </div>
-                        <button class="carrito-acciones-comprar">Comprar ahora</button>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
                     </div>
                 </div>
 
@@ -69,6 +78,7 @@
         </main>
     </div>
 
+    <script src="./menu.js"></script>
     <script src="./js/carrito.js"></script>
 </body>
 

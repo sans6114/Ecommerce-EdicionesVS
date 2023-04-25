@@ -16,8 +16,16 @@
 <body>
 
     <div class="envoltorio">
-        <aside>
-
+        <header class="header-mobile">
+            <img loading="lazy" src="./img/marca_ediciones_vs-01.png" class="logo" alt="Logo editorial" />
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside class="aside-visible">
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
             <header>
                 <img loading="lazy" src="./img/marca_ediciones_vs-01.png" class="logo" alt="Logo editorial" />
             </header>
@@ -45,6 +53,7 @@
         </main>
     </div>
 
+    <script src="./menu.js"></script>
     <script src="./main.js"></script>
 </body>
 
